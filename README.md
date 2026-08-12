@@ -13,7 +13,7 @@
 - 🎓 Recent CS graduate (B.Tech, 2022–26) who's shipped **production-style systems** — not just tutorial projects.
 - 🛠️ Built a role-based REST API platform, a multi-provider LLM fallback architecture, and an event-driven order processing system with **Apache Kafka**.
 - 📈 Owned a 3-app monorepo end-to-end — **85% of commits**, ~17,000 lines of TypeScript, from schema design to UI.
-- 💼 Frontend Developer Intern at **Broadifi Tech Pvt. Ltd.**, where I built an admin dashboard and reduced unnecessary re-renders for faster load times.
+- 💼 Javascript Developer Intern at **Broadifi Tech Pvt. Ltd.**, where I built admin dashboards and reduced unnecessary re-renders for faster load times.
 - 🌱 I care more about scalable, well-architected systems than quick hacks.
 - 📫 Reach me at **ssayamghosh@gmail.com**
 
@@ -54,19 +54,19 @@
 
 ### 🌟 Featured Projects
 
-#### 🧭 [LegalLink — AI-Powered Legal Services Platform](https://github.com/sayamghosh)
+#### 🧭 [LegalLink — AI-Powered Legal Services Platform](https://legallink.hexabytes.tech/)
 `NestJS` `FastAPI` `PostgreSQL (pgvector)` `AWS EC2`
 - Legal-tech platform grounding LLM responses in live case-law/statute retrieval via pgvector semantic search to cut hallucination risk.
 - Multi-provider LLM fallback (Gemini + Vultr) with automatic per-model quota chains, plus real-time WebSocket consultations.
 - Zero-downtime CI/CD on AWS EC2 (GitHub Actions) with health-checked deployments, atomic rollback, and forced-command SSH.
 
-#### ⚡ Order Notification System — Event-Driven Order Processing with Apache Kafka
+#### ⚡ [Order Notification System — Event-Driven Order Processing with Apache Kafka](https://github.com/sayamghosh/just-kafka)
 `Kafka (KRaft)` `Node.js` `Express` `Docker Compose`
 - Producer/consumer architecture with consumer groups for pub/sub fan-out and partitioned keys for per-user ordering.
 - Dead-letter queue handling + manual offset commits for at-least-once, idempotent delivery.
 - Side-by-side benchmark against a synchronous baseline to quantify latency and reliability gains.
 
-#### ✈️ [Joy Trips — Full-Stack Trip Planning Platform](https://github.com/sayamghosh)
+#### ✈️ [Joy Trips — Full-Stack Trip Planning Platform](https://www.joytrips.site/)
 `Next.js` `Express.js` `MongoDB`
 - 3-app monorepo (customer site, staff admin dashboard, API) spanning 4 data models and ~17,000 lines of TypeScript.
 - Role-based access control (traveller/guide/admin) with Google OAuth 2.0 + JWT, gating 26 REST endpoints by role.
@@ -74,13 +74,95 @@
 
 ---
 
-### 📊 GitHub Stats
+### 📊 Developer Activity
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=sayamghosh&show_icons=true&theme=default&hide_border=true" />
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=sayamghosh&hide_border=true" />
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=sayamghosh&hide_border=true&area=true"
+    width="95%"
+  />
 </p>
 
 ---
 
-<p align="center"><i>Open to full-stack, frontend, and backend roles. Let's build something reliable.</i></p>
+### 🛠️ What I'm Currently Exploring
+
+<table>
+<tr>
+<td align="center" width="25%">
+
+### 🧩
+
+**System Design**
+
+Distributed systems, event-driven architecture and scalable APIs
+
+</td>
+
+<td align="center" width="25%">
+
+### 🤖
+
+**GenAI**
+
+RAG pipelines, LLM orchestration and reliable AI systems
+
+</td>
+
+<td align="center" width="25%">
+
+### ☁️
+
+**Cloud**
+
+AWS, containers, deployment automation and infrastructure
+
+</td>
+
+<td align="center" width="25%">
+
+### ⚙️
+
+**Backend**
+
+NestJS, PostgreSQL, Kafka and high-performance services
+
+</td>
+</tr>
+</table>
+
+---
+
+### 🌐 Coding & Professional Profiles
+
+<p align="center">
+
+<a href="https://www.linkedin.com/in/sayamghosh/">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="https://github.com/sayamghosh">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="mailto:ssayamghosh@gmail.com">
+  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+</p>
+
+---
+
+### 💡 A Little More About How I Build
+
+> I like understanding **why a system is designed a certain way**, not just making it work.
+
+Whether it's choosing Kafka over synchronous processing, introducing vector search into an application, designing a fallback strategy for LLM providers, or automating deployments — I enjoy working on the engineering decisions behind the product.
+
+---
+
+<p align="center">
+  <i>Open to full-stack, backend, and frontend opportunities.</i>
+  <br/>
+  <b>Let's build something reliable.</b> 🚀
+</p>
